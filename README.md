@@ -8,3 +8,8 @@ I modified [the 3D case design](https://www.thingiverse.com/thing:5030874) a bit
 This was my first time working with RP2040, CircuitPython, and STEMMA QT connectors. It was a very refreshing weekend project compared to some previous electronics projects which required lots of soldering and C++.
 
 ![air-logger](https://user-images.githubusercontent.com/17863/150721770-ea3c41e4-5e17-4324-9afc-bd428591057b.jpg)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdieseltravis%2Fportable-air-logger.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdieseltravis%2Fportable-air-logger?ref=badge_shield)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdieseltravis%2Fportable-air-logger.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdieseltravis%2Fportable-air-logger?ref=badge_large)
