@@ -21,6 +21,7 @@ scd4x = adafruit_scd4x.SCD4X(i2c)
 sgp = adafruit_sgp40.SGP40(i2c)
 #  setup for RTC
 rtc = adafruit_pcf8523.PCF8523(i2c)
+
 #  start measuring co2 with SCD40
 scd4x.start_periodic_measurement()
 
@@ -53,11 +54,9 @@ except ValueError:
 #  it should only be needed after the initial set
 #  if you've removed the coincell battery
 # set_clock = False
-# 
 # if set_clock:
 #     #                     year, mon, date, hour, min, sec, wday, yday, isdst
 #     t = time.struct_time((2022,   1,   22,   14,  27,  00,    0,   -1,    -1))
-# 
 #     print("Setting time to:", t)
 #     rtc.datetime = t
 #     print()
@@ -76,6 +75,7 @@ print('Current time: {}:{}:{}'.format(
     '%0*d' % (2, t.tm_sec)
     ))
 
+# wait 10 seconds for the sensor to start getting info
 time.sleep(10)
 
 #  check air levels
