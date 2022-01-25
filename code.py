@@ -52,15 +52,15 @@ except ValueError:
 #  otherwise RTC will remain set
 #  it should only be needed after the initial set
 #  if you've removed the coincell battery
-set_clock = False
-
-if set_clock:
-    #                     year, mon, date, hour, min, sec, wday, yday, isdst
-    t = time.struct_time((2022,   1,   22,   14,  27,  00,    0,   -1,    -1))
-
-    print("Setting time to:", t)
-    rtc.datetime = t
-    print()
+# set_clock = False
+# 
+# if set_clock:
+#     #                     year, mon, date, hour, min, sec, wday, yday, isdst
+#     t = time.struct_time((2022,   1,   22,   14,  27,  00,    0,   -1,    -1))
+# 
+#     print("Setting time to:", t)
+#     rtc.datetime = t
+#     print()
 
 #  variable to hold RTC datetime
 t = rtc.datetime
