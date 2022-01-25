@@ -9,7 +9,7 @@ This was my first time working with RP2040, CircuitPython, and STEMMA QT connect
 
 ![air-logger](https://user-images.githubusercontent.com/17863/150721770-ea3c41e4-5e17-4324-9afc-bd428591057b.jpg)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdieseltravis%2Fportable-air-logger.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdieseltravis%2Fportable-air-logger?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdieseltravis%2Fportable-air-logger.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdieseltravis%2Fportable-air-logger?ref=badge_shield) [![Total alerts](https://img.shields.io/lgtm/alerts/g/dieseltravis/portable-air-logger.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/dieseltravis/portable-air-logger/alerts/) [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/dieseltravis/portable-air-logger.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/dieseltravis/portable-air-logger/context:python)
 
 
 ## License
